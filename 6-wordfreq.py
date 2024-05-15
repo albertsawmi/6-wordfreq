@@ -19,5 +19,5 @@ def wordfreq(text: str) -> dict:
     return word_freq
 
 # Här testar jag att skriva en mening med flera ord i samma mening för att få fram ett resultat.
-text = "knut satt vid en knut och knöt en knut När knut knutit knuten var knuten knuten"
+text = "knut satt vid en knut och knöt en knut När knut knutit knuten var knuten knuten ."
 print(wordfreq(text))
